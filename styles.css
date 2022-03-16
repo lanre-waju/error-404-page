@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Lobster&family=Merriweather&family=Rubik:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1d1f45;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #8f6ed5;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 80%;
+    }
+}

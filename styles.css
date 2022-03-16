@@ -6,12 +6,12 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Merriweather", serif;
     font-size: 62.5%;
 }
 
 .container {
-    margin: 100px auto;
+    margin: 150px auto;
     max-width: 500px;
     text-align: center;
 }
